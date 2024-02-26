@@ -1,0 +1,29 @@
+
+GET http://localhost:3500/leads
+
+###
+
+POST http://localhost:3500/leads
+Content-Type: application/json
+
+{
+    "name" : "karan",
+    "email" : "bjkdh@gmail.com",
+    "organization" : "trip tech"
+}
+
+###
+
+POST http://localhost:3500/api/register
+Content-Type: "application/json"
+Accept: "application/json"
+
+{
+    email : "hello@gmail.com"
+    password : "kkvjhgvh"
+}
+
+###
+
+DELETE http://localhost:3500/leads/dhlvdylvdjhvdj
+
